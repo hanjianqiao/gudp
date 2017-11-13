@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0796F9EA1FB956330062004B /* gudp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0796F9E91FB956330062004B /* gudp.m */; };
 		0796F9EB1FB956330062004B /* gudp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0796F9E81FB956330062004B /* gudp.h */; };
+		0796F9F41FB956540062004B /* foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0796F9F21FB956540062004B /* foo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		0796F9E51FB956330062004B /* libgudp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgudp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0796F9E81FB956330062004B /* gudp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gudp.h; sourceTree = "<group>"; };
 		0796F9E91FB956330062004B /* gudp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gudp.m; sourceTree = "<group>"; };
+		0796F9F21FB956540062004B /* foo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = foo.cpp; sourceTree = "<group>"; };
+		0796F9F31FB956540062004B /* foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +63,20 @@
 		0796F9E71FB956330062004B /* gudp */ = {
 			isa = PBXGroup;
 			children = (
+				0796F9F11FB956540062004B /* src */,
 				0796F9E81FB956330062004B /* gudp.h */,
 				0796F9E91FB956330062004B /* gudp.m */,
 			);
 			path = gudp;
+			sourceTree = "<group>";
+		};
+		0796F9F11FB956540062004B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0796F9F21FB956540062004B /* foo.cpp */,
+				0796F9F31FB956540062004B /* foo.h */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0796F9F41FB956540062004B /* foo.cpp in Sources */,
 				0796F9EA1FB956330062004B /* gudp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
